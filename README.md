@@ -8,13 +8,21 @@ macOS 메뉴 막대에서 Codex 사용량을 확인하는 네이티브 Swift 앱
 - 누적 토큰과 연속 사용 일수
 - 앱 실행 즉시 조회, 5분 자동 갱신, 수동 새로고침, 로그인 시 자동 실행
 
+## 한 줄 설치
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/roblej/codex-meter/main/scripts/install.sh | zsh
+```
+
+최신 `main` 소스를 내려받아 로컬에서 빌드한 뒤 `~/Applications/CodexMeter.app`에 설치하고 실행합니다. 기존 앱이 실행 중이면 종료한 뒤 새 버전으로 교체합니다.
+
 ## 요구 사항
 
 - macOS 13 이상
 - Codex 데스크톱 앱 또는 Codex CLI 로그인
 - Xcode 15 이상 또는 호환되는 Swift 툴체인
 
-## 빌드와 실행
+## 직접 빌드와 실행
 
 ```bash
 make test
