@@ -8,6 +8,8 @@ macOS 메뉴 막대에서 Codex 사용량을 확인하는 네이티브 Swift 앱
 - 누적 토큰과 연속 사용 일수
 - 앱 실행 즉시 조회, 5분 자동 갱신, 수동 새로고침, 로그인 시 자동 실행
 
+![Codex Meter 미리보기](docs/images/codex-meter-preview.png)
+
 ## 한 줄 설치
 
 ```bash
